@@ -1,0 +1,27 @@
+html {
+    background: steelblue;
+    font-family: sans-serif;
+    color: black;
+    }
+
+.result {
+    background-color: whitesmoke;
+}
+
+.result:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+.searchForm .results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input.search {
+    border: none;
+    max-width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+}
